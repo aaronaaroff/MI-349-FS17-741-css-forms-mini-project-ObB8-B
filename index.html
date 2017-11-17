@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Form Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  <body>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <div class="container-fluid">
+      <h1>The One Legged Race for One Legged Racers</h1>
+      <p>
+        This race will take place during the Boston Marathon, instead of
+        running with two legs we will be doing a similar length race with one leg.
+        The race will of course take much longer than the Boston Marathon because
+        the 26 mile race will consist of mainly hopping/crawling. No prosthetics
+        are allowed in the racing area.
+      </p>
+    </div>
+      <form>
+        <div class="form-group">
+          <label for="exampleInput">Racer Name</label>
+          <input value="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInput">Racer Age</label>
+          <input value="Enter Age">
+        </div>
+        <div class="form-group">
+          <label for="exampleInput">Racer Gender</label>
+          <input value="Enter Gender">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Racer T-Shirt Size</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>XS</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Enter Address</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input">
+            Check if you only have one leg.
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </body>
+</html>
